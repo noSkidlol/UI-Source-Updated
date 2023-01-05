@@ -51,7 +51,7 @@ function Library:DraggingEnabled(frame, parent)
 	end)
 end
 
-function PortalMain:Notification(Option) 
+function Library:Notification(Option) 
     local Title = Option.Title or "Title"
     local Text = Option.Text or "Description"
     local Duration = Option.Duration or 10
